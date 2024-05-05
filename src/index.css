@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.heroCover{
+  background-image: url('./assets/modern2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  width: 100%;
+  @apply pt-8
+}
+.input{
+  @apply p-2 block w-full border border-gray-300 rounded-2xl outline-none
+}
+
+.addBtn{
+  @apply bg-blue-700 font-bold text-white p-1 lg:p-2 rounded-md text-sm lg:text-lg
+}
+@media screen and (max-width:600px){
+  .addBtn{
+    font-size:10px;
+  }
+}
