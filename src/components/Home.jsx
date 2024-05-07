@@ -30,7 +30,7 @@ const Home = () => {
   return (
 		<div>
 			<div>
-				{' '}
+				
 				<HouseholdList items={items} getItems={getItems} />
 			</div>
 			

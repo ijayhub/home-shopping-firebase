@@ -42,7 +42,7 @@ The application helps you keep track of the items in your home, especially when 
 
 - Adding new items with ease.
 
-- Marking items as bought with a convenient strikethrough featur
+- Marking items as bought with a convenient strikethrough feature
 
 
 ### Overview

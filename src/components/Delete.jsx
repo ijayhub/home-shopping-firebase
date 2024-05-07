@@ -32,7 +32,7 @@ const Delete = ({ getItems, item }) => {
 		<div>
 			<BsTrash3Fill
 				className='bg-red-700 text-white rounded-md p-1 mr-4 shadow-lg'
-				onClick={() => deleteHousehold(item.id)} // Fixed function name
+				onClick={() => deleteHousehold(item.id)} 
 			/>
 			<ToastContainer style={{ toastCSS }} />
 		</div>
@@ -40,8 +40,8 @@ const Delete = ({ getItems, item }) => {
 };
 
 Delete.propTypes = {
-	getItems: PropTypes.func.isRequired, // Corrected prop type and made it required
-	item: PropTypes.object.isRequired, // Added prop type for 'item' and made it required
+	getItems: PropTypes.func.isRequired,
+	item: PropTypes.object.isRequired, 
 };
 
 export default Delete;

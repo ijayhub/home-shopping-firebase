@@ -41,7 +41,7 @@ const ModalAdd = ({ openModal, onCloseModal, getItems }) => {
 			popup
 			className='overflow-y-auto bg-gray-900 bg-opacity-50 flex flex-cols items-center justify-center p top-0'>
 			<Modal.Header>
-				<div >
+				<div>
 					<img src={logo} alt='house appliance in a cart' className='w-14' />
 				</div>
 			</Modal.Header>

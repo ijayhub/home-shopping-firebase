@@ -79,7 +79,7 @@ const HouseholdList = ({ items, getItems }) => {
 						<ModalAdd
 							openModal={openModal}
 							onCloseModal={() => setOpenModal(false)}
-							getItems={getItems} // Fixed prop name to getItems
+							getItems={getItems} 
 						/>
 					</div>
 				</div>

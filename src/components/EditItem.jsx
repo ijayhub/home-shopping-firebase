@@ -74,8 +74,8 @@ const EditItem = () => {
 };
 
 EditItem.propTypes = {
-	getItems: PropTypes.func, // Make getItems prop optional
-	// item: PropTypes.object.isRequired,
+	getItems: PropTypes.func, 
+
 };
 
 export default EditItem;

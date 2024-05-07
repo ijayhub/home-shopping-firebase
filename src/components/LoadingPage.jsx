@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { CirclesWithBar } from 'react-loader-spinner'
-import Home from "../components/Home";
+import Home from "./Home";
 
 
-const LandingPage = () => {
+const LoadingPage = () => {
 	const [isLoading, setIsLoading] = useState(true);
 
 	setTimeout(() => {
@@ -13,7 +13,7 @@ const LandingPage = () => {
 		<>
 			<main className='bg-gray-300'>
 				{isLoading && (
-					<div className='flex flex-col pt-54 justify-center items-center h-screen '>
+					<div className='flex flex-col pt-54 justify-center items-center h-screen mb-8'>
 						<CirclesWithBar
 							height='100'
 							width='100'
@@ -26,7 +26,7 @@ const LandingPage = () => {
 							wrapperClass=''
 							visible={true}
 						/>
-						<div className='mb-6'>
+						<div>
 							<p className='text-3xl font-bold text-gray-700 '>Loading...</p>
 						</div>
 					</div>
@@ -37,4 +37,4 @@ const LandingPage = () => {
 	);
 }
 
-export default LandingPage
+export default LoadingPage
