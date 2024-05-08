@@ -34,7 +34,7 @@ The application helps you keep track of the items in your home, especially when 
 
 ### Key Features
 
-- Page Navigation: The ability to navigate between pages seamlessly.
+- Page Navigation: The ability to navigate between pages seamlessly with a click of a button.
 
 - Removing items you no longer need.
 
