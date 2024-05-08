@@ -75,7 +75,6 @@ const EditItem = () => {
 
 EditItem.propTypes = {
 	getItems: PropTypes.func, 
-
 };
 
 export default EditItem;

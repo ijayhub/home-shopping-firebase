@@ -19,7 +19,6 @@ const Home = () => {
 			setItems(showData);
 		} catch (err) {
 			console.error(err);
-		
 		}
 	};
 
@@ -30,10 +29,8 @@ const Home = () => {
   return (
 		<div>
 			<div>
-				
 				<HouseholdList items={items} getItems={getItems} />
 			</div>
-			
 		</div>
 	);
 };
